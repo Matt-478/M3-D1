@@ -104,6 +104,14 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
     Return `true` if it doesn't, `false` if it does. */ 
+    const doesnNotContainOneOrThree = function (arr) {
+        if(containsOneOrThree(arr) === true ) {
+            return false
+        } else {
+            return true
+        }
+    }
+    // console.log(doesnNotContainOneOrThree([3,5]))
 
 
 /* 11. Create a function to find the longest string from a given array of strings. 
