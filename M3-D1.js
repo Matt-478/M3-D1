@@ -158,7 +158,7 @@ const returnLargest = function (num1, num2, num3) {
             return false
         }
     }
-    console.log(findTypeOfGivenAngle(4))
+    // console.log(findTypeOfGivenAngle(4))
 
 
 /* 13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter. */
@@ -178,7 +178,17 @@ const returnLargest = function (num1, num2, num3) {
     // console.log(findIndexOfGreatest([3,7,2,14]))
 
 /* 14. Create a function to find and return the largest **even** number from an array of integers that is passed a parameter. */
+    const findLargestEvenNum = function (arrayOfIntegers) {
+        arrayOfIntegers.sort((x, y) => y - x)
 
+        for (let i = 0; i < arrayOfIntegers.length; i++) {
+          if (arrayOfIntegers[i] % 2 == 0) {
+            return arrayOfIntegers[i];
+          }
+        }   
+    }
+    console.log(findLargestEvenNum([20, 40, 200]));
+    console.log(findLargestEvenNum([20, 40, 200, 301]));   
 
 /* 15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. 
     Return `true` if that's the case, return `false` if it's not. */
