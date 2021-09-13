@@ -81,13 +81,13 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 8. Create a function to calculate and return the sum of all elements from an array with 3 elements. 
     Pass the array as a parameter. */
-    // const returnSumAll = function (arr) {
-    //     let sum = 0
-    //     for(let i = 0; i<arr.length; i++) {
-    //         sum = sum +arr[i]
-    //     }
-    //     return sum
-    // }
+    const returnSumAll = function (arr) {
+        let sum = 0
+        for(let i = 0; i<arr.length; i++) {
+            sum = sum +arr[i]
+        }
+        return sum
+    }
 
 // console.log(returnSumAll([1,2,3,4,5]))
 
