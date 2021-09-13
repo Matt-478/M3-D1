@@ -244,8 +244,21 @@ const numberToString = function (factor) {
         return "Diego"
     }
 }
-console.log(numberToString(9))
+// console.log(numberToString(9))
 
 
 /* 19. Create a function that that takes a phrase as a parameter and returns its acronym.
 Ex. British Broadcasting Corporation returns `BBC` */
+const phraseToAcronym = function (str) {
+    const strArr = str.split(' ');
+    let res = '';
+    strArr.forEach(el => {
+       const [char] = el;
+       if(char === char.toUpperCase() && char !== char.toLowerCase()){
+          res += char;
+        }    
+        });
+       return res
+    }
+
+       console.log(phraseToAcronym("British Broadcast Compnay"))
