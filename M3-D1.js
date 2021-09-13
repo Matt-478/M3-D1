@@ -219,6 +219,15 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 17. Create a function to calculate the sum of two integers (passed as parameters). 
     If the sum is in the 50-80 range, return `65`, otherwise, return `80`. */
+    const sumOfTwo = function (num1, num2) {
+        let sum = num1 + num2
+        if(sum >= 50 && sum <= 80 ) {
+            return "65"
+        } else {
+            return "80"
+        }
+    }
+    // console.log(sumOfTwo(43,17))
 
 
 /* 18. Create a function to convert a number (passed as a parameter) into a string, basing yourself on this example: 
