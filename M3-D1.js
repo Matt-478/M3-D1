@@ -139,6 +139,26 @@ const returnLargest = function (num1, num2, num3) {
 
     Pass the angle as a parameter.
 */
+const findTypeOfGivenAngle = function (angle) {
+    // switch(angle) {
+    //     case angle >= 0 && angle <= 90:
+    //         return console.log("Acute")
+    //         break
+    //     }
+
+    if (angle >= 0 && angle <= 90) {
+        return console.log("Acute")
+    } else if (angle === 90) {
+        return "Right"
+    } else if (angle >= 90 && angle <= 180) {
+        return "Obtuse"
+    } else if (angle === 180) {
+        return "Straight"
+    } else {
+        return false
+    }
+}
+console.log(findTypeOfGivenAngle(4))
 
 
 /* 13. Create a function to find and return the index of the greatest element of a given array of integers that you passed as a parameter. */
