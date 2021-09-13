@@ -11,14 +11,14 @@ const sumOfNumbers = function (num1, num2) {
 // console.log(sumOfNumbers(2,3))
 
 /* 2. Create a function to check two given integers. Return `true` if one of them is 50 or if their sum is 50. */
-// const isThisFifty = function (num1, num2) {
-//     let sum = 50
-//     if(num1 + num2 === sum || num1 === sum || num2 === sum) {
-//     return true
-//     } else {
-//      return false
-//  }
-// }
+const isThisFifty = function (num1, num2) {
+    let sum = 50
+    if(num1 + num2 === sum || num1 === sum || num2 === sum) {
+    return true
+    } else {
+     return false
+ }
+}
 // console.log(isThisFifty(25, 25))
 
 
