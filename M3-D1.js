@@ -116,6 +116,19 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 11. Create a function to find the longest string from a given array of strings. 
     Pass the array as parameter and return the longest string. */ 
+     const longestString = function (arr) {
+        let length = 0;
+        let longest;
+        
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i].length > length) {
+            length = arr[i].length;
+            longest = arr[i];
+          }
+        }
+        return longest
+     }
+    //  console.log(longestString(["Betty", "John", "Nala", "Elizabeth", "Frank"]))
 
 
 /* 12. Create a function to find the types of a given angle:
