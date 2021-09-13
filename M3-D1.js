@@ -67,14 +67,14 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 7. Create a function to display the city name if the string begins with "Los" or "New". 
     Pass the city name as a parameter. Return `false` if they start with a different string. */
-    // const displayCityName = function(cityName) {
-    //     if (cityName.length >= 3 && ((cityName.substring(0, 3) == 'Los')
-    //     || (cityName.substring(0, 3) == 'New'))){
-    //         return true
-    //     } else {
-    //         return false
-    //     }
-    // }
+    const displayCityName = function(cityName) {
+        if (cityName.length >= 3 && ((cityName.substring(0, 3) == 'Los')
+        || (cityName.substring(0, 3) == 'New'))){
+            return true
+        } else {
+            return false
+        }
+    }
 
     // console.log(displayCityName("Old Check"))
 
