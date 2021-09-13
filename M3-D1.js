@@ -47,13 +47,13 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 5. Create a function to check if two numbers are in the range 40-60 or 70-100. 
     Return `true` if they do, return `false` if one (or both) don't. */
-//     const inRange = function(num1, num2) {
-//     if(num1 >= 40 && num1<= 60 && num2 >= 40 && num2<= 60 || num1>=70 && num1 <=100 && num2>=70 && num2 <=100) {
-//         return true
-//     } else {
-//         return false
-//     }
-// }
+    const inRange = function(num1, num2) {
+    if(num1 >= 40 && num1<= 60 && num2 >= 40 && num2<= 60 || num1>=70 && num1 <=100 && num2>=70 && num2 <=100) {
+        return true
+    } else {
+        return false
+    }
+}
 // console.log(inRange(106, 93))
 
 /* 6. Create a function to create a new string composed of a specified number of copies of a given string. 
