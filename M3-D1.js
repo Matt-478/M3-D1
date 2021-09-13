@@ -187,11 +187,19 @@ const returnLargest = function (num1, num2, num3) {
           }
         }   
     }
-    console.log(findLargestEvenNum([20, 40, 200]));
-    console.log(findLargestEvenNum([20, 40, 200, 301]));   
+    // console.log(findLargestEvenNum([20, 40, 200]));
 
 /* 15. Create a function to check from two given integers (passed as parameters) if one is positive and the other is negative. 
     Return `true` if that's the case, return `false` if it's not. */
+    const areTheyoppositeIntegers = function (num1, num2) {
+
+        if(num1 >= 0 && num2 < 0 || num2 >= 0 && num1 < 0) {
+            return true
+        } else {
+            return false
+        }
+    }
+    // console.log(areTheyoppositeIntegers(3,-7))
 
 
 /* 16. Create a function to create and return a new string where the first 3 characters and in lower case and the others are in upper case. 
