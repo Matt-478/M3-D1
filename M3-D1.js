@@ -61,8 +61,7 @@ const returnLargest = function (num1, num2, num3) {
     const newStringOfOld = function (str, numOfCopies) {
     return str.repeat(numOfCopies)
     }
-
-    console.log(newStringOfOld("old", 4))
+    // console.log(newStringOfOld("old", 4))
 
 
 /* 7. Create a function to display the city name if the string begins with "Los" or "New". 
@@ -75,7 +74,6 @@ const returnLargest = function (num1, num2, num3) {
             return false
         }
     }
-
     // console.log(displayCityName("Old Check"))
 
 
@@ -88,12 +86,20 @@ const returnLargest = function (num1, num2, num3) {
         }
         return sum
     }
-
 // console.log(returnSumAll([1,2,3,4,5]))
 
 /* 9. Create a function to test if an array of length 2 contains 1 OR 3. 
     Return `true` is it does, `false` if it doesn't. */
-/
+    const containsOneOrThree = function (arr) {
+        if(arr.length === 2 ) {
+            if( arr[0] === 1 || arr[0] === 3 || arr[1] === 1 || arr[1] === 3) {
+            return true
+        } else {
+            return false
+        }
+    }
+}
+    // console.log(containsOneOrThree([7,5]))
 
 
 /* 10. Create a function to test if an array of lenght 2 DOES NOT contain 1 or 3. 
