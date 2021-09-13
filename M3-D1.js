@@ -204,6 +204,17 @@ const returnLargest = function (num1, num2, num3) {
 
 /* 16. Create a function to create and return a new string where the first 3 characters and in lower case and the others are in upper case. 
     If the string's length is less than 3, convert the whole string into uppercase. Pass the original string as a parameter. */
+    const firstThreeLowerCase = function (str) {
+        if(str.length === 3) {
+           return str.toUpperCase();
+        } else {
+            let frontPart = (str.substring(0, 3)).toLowerCase();
+            let backPart = str.substring(3, str.length).toUpperCase();  
+            return frontPart + backPart;
+        }
+    }
+    // console.log(firstThreeLowerCase("Ben"))
+    // console.log(firstThreeLowerCase("Bonjourno"))
 
 
 /* 17. Create a function to calculate the sum of two integers (passed as parameters). 
