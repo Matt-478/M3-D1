@@ -23,24 +23,24 @@ const isThisFifty = function (num1, num2) {
 
 
 /* 3. Create a function to remove a character at a specified position from a given string: pass the position and the string as parameters, return the new string. */
-// const removeCharacter = function (str, position) {
-//     let splitString = str.split("")
-// }
+const removeCharacter = function (str, position) {
+    let splitString = str.split("")
+}
 
 
 /* 4. Create a function to find and return the largest of three given integers. */
-// const returnLargest = function (num1, num2, num3) {
-//     let arr = []
-//         if (num1 > num2 ) {
-//             arr.push(num1)
-//         }
-//         else if (num2 > num3) {
-//             arr.push(num2)
-//         } else {
-//             arr.push(num3) 
-//         }
-//         return arr
-//     }
+const returnLargest = function (num1, num2, num3) {
+    let arr = []
+        if (num1 > num2 ) {
+            arr.push(num1)
+        }
+        else if (num2 > num3) {
+            arr.push(num2)
+        } else {
+            arr.push(num3) 
+        }
+        return arr
+    }
 
 // console.log(returnLargest(43,102,12))
 
