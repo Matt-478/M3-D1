@@ -237,6 +237,14 @@ const returnLargest = function (num1, num2, num3) {
     If the number does not have 3,5, or 7, return the original number. 
     ⚠️ The factor is an integer which evenly divides a number without leaving a remainder. One number can have more than one factor, in that case you should return both names. 
 Ex. 15 has both 3 and 5 has factors: the function will return `DiegoRiccardo` */
+const numberToString = function (factor) {
+    if(factor = 3) {
+        for(let i = 1; i <= factor; i++) {
+        }
+        return "Diego"
+    }
+}
+console.log(numberToString(9))
 
 
 /* 19. Create a function that that takes a phrase as a parameter and returns its acronym.
